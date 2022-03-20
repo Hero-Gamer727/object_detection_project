@@ -3,14 +3,15 @@ objects = [];
 
 
 function preload() {
-    img = loadImage("IMG_2223.jpg");
+    img = loadImage("IMG_2228.jpg");
 }
 
 
 
 function setup() {
-    canvas = createCanvas(480,640);
+    canvas = createCanvas(450,640);
     canvas.center();
+    
 
     object_detector = ml5.objectDetector("cocossd", modelLoaded);
     document.getElementById("status").innerHTML = "Detecting Objects";

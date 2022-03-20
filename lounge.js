@@ -3,7 +3,7 @@ objects = [];
 
 
 function preload() {
-    img = loadImage("IMG_2223.jpg");
+    img = loadImage("IMG_2224.jpg");
 }
 
 
